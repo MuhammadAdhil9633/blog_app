@@ -1,0 +1,127 @@
+/* src/App.css */
+
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #ADBBDA;
+}
+.MainHead{
+
+  display: flex;
+  padding-left: 55px;
+    gap: 15px;
+    height: 90px;
+   
+   
+
+
+  
+}
+
+.headerbtn{
+  display: flex;
+  justify-content: end;
+  padding-right: 90px;
+  gap: 15px;
+  padding-top: 20px;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+}
+
+button {
+  background-color: #3D52A0;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+  font-size: 16px;
+  height: 40px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Blog List Styles */
+.blog-list {
+  list-style: none;
+  padding: 0;
+}
+
+.blog-list-item {
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+}
+
+.blog-list-item:last-child {
+  border-bottom: none;
+}
+
+.blog-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #007bff;
+}
+
+.blog-content {
+  margin: 10px 0;
+  color: #555;
+}
+
+/* Blog Create Styles */
+.blog-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-form input,
+.blog-form textarea {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.blog-form button {
+  align-self: flex-start;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+
+.headerbtn button {
+  padding: 10px 15px;
+  border: none;
+  background-color: #007bff; /* Default button color */
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.headerbtn button.active {
+  background-color: #0056b3; /* Active button color */
+}
+
+.headerbtn button:focus {
+  outline: none; /* Remove default focus outline */
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5); /* Custom focus effect */
+}
+
+

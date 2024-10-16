@@ -1,0 +1,35 @@
+h1{
+    color: black ;
+    display: flex;
+    justify-content: center;
+    
+}
+.header{
+
+    background-color: #7091E6;
+    padding-bottom: 50px;
+}
+
+.content{
+    margin-top: 90px;
+}
+.create-input input{
+
+    width: 410px;
+    height: 37px;
+}
+
+.create-form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+}
+.text-create{
+    width: 444px;
+    height: 80px;
+}
+.create-cont.container{
+
+    background-color: #ede8f5;
+}

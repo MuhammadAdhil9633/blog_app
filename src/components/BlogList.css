@@ -1,0 +1,68 @@
+h1{
+    font-family: "Playwrite DE Grund", cursive;
+    font-size: 30px;
+}
+
+p{
+    font-family: "Playwrite DE Grund", cursive;
+    max-width: 600PX;
+    word-wrap: break-word; 
+}
+
+ul{
+    display: grid;
+    grid-template-columns: max-content;
+}
+.bloglist.container{
+    background-color: #ede8f5 !important;
+margin-top:90PX ;
+
+
+}
+h2{
+    font-family: "Playwrite DE Grund", cursive;
+}
+.blog-actions{
+
+    width: 720px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.blog-actions button{
+
+    height: 41px;
+background-color: white;
+width: 57px;
+color: black;
+font-weight: 600;
+border-radius: 8px;
+
+}
+.blog-actions .dltbtn{
+
+    width: 72px;
+    border-radius: 8px;
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
